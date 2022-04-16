@@ -11,7 +11,7 @@ export const homeObjOne = {
   topLine: '$WRLD Horses',
   headline: 'About',
   description:
-    '$WRLD Horses is a competitive horse racing game in which players can race, play and breed horse NFTs with unique physical attributes and stats.',
+    '$WRLD Horses is a competitive horse racing game in which players can race, trade and breed horse NFTs with unique physical attributes and stats.',
   buttonLabel: 'Whitepaper',
   imgStart: false,
   img: svgOne,
