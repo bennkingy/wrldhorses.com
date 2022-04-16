@@ -8,7 +8,6 @@ export const ServicesContainer = styled.div`
   background: #fff;
   padding: 100px 0;
   min-height: calc(100vh - 50px);
-  // margin: 100px 0;
 `
 
 export const ServicesWrapper = styled.div`

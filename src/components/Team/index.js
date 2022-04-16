@@ -30,7 +30,7 @@ const Team = () => {
         <a href="https://twitter.com/metebox" target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Founder</ServicesH2>
+            <ServicesH2>Founder / Creative Director</ServicesH2>
             <ServicesP>
               Metebox <FaTwitter />
             </ServicesP>
