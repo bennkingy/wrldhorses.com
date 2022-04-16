@@ -28,9 +28,7 @@ const FAQss = () => {
       <ServicesContainer id='faqs'>
         <TopLine>$WRLD Horses</TopLine>
         <ServicesH1>FAQs</ServicesH1>
- 
           <FAQS data={data}/>
-
       </ServicesContainer>
     </>
   )

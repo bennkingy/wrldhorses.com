@@ -53,7 +53,7 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
-  font-size: 27px;
+  font-size: 25px;
   text-align: center;
   max-width: 600px;
 
