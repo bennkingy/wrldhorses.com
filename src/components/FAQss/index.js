@@ -10,11 +10,11 @@ import FAQS from 'react-faqs-component';
 // the data object includes an array of the FAQS and answers, background color, title color, answer color and icon color
 const data ={
   faqs:[
-      {question:"Wen mint?",answer:"We are minting on the 30th of April. There will be 6969 NFTs in total. Free mint for whitelisters (5000 NFTs). 0.0069 ETH for public (1969 NFTs)."},
-      {question:"Wen utility?",answer:"Once Stellar Dev has completed the build you will be able to race your NFT horse for $wrld wagers and try become top of the leaderboard. Complete quests for $wrld, breed your horse for matic $$$ and spawn/play around on your horse cowboy!"},
-      {question:"Wen game launch?",answer:"Once Stellar Dev has completed the build which should be within 4 weeks for an alpha launch."},
-      {question:"Wen breeding?",answer:"Genesis NFT owners will be able to breed 2nd genertion horses on Polygon! More details to come."},
-      {question:"Wen leaderboard?",answer:"We are developing leaderboards which will show who has had the most wins, in game and on the website! Players can purchase speed potions with $WRLD to give themselves a better chance to win on the race track!"},
+    {question:"Wen mint?",answer:"The Genesis Horse collection will mint on 30th April 2022. Whitelisted wallets will have 24 hrs to mint five Horses for free. The rest will go on public sale for $69.69 (in ETH) on 1st May."},
+    {question:"Wen utility?",answer:"Genesis Horses will allow you to participate in Competitive Races where players can wager $WRLD. They also allow players to access the story mode which rewards in $WRLD too. Please see our White Paper for full utility plan."},
+    {question:"Wen game launch?",answer:"Alpha track multiplayer experience will launch at the end of Q2. Alpha Track Story Mode will launch Q3."},
+    {question:"Wen breeding?",answer:"Genesis Horse owners will be able to breed 1st Generation Horses on Polygon! More details coming soon. Please see White Paper for full utility plan."},
+    {question:"Wen leaderboard?",answer:"We will feature leaderboards in the Alpha Track multiplayer launch at the end of Q2. These will appear on our website and in-game, displaying the best players competing in Competitive Races each month."},
   ],
   backgroundColor:'#f4f5f9',
   titleColor:"#000",
