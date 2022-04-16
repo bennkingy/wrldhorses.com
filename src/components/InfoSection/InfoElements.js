@@ -3,19 +3,14 @@ import styled from 'styled-components/macro';
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
-  height: calc(100vh - 80px);
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
+  height: 100%;
+  box-sizing: content-box;
 `
 
 export const InfoWrapper = styled.div`
-  display: grid;
+  display: flex;
   z-index: 1;
   height: 860px;
-  @media screen and (max-width: 768px) {
-    height: 100%;
-  }
   width: 100%;
   max-width: 1100px;
   margin-right: auto;

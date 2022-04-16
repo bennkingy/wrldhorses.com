@@ -1,5 +1,4 @@
 import React from 'react'
-import file from './../../files/WRLD Horses WP.pdf'
 import {
   InfoContainer,
   InfoWrapper,

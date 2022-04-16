@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper,  ArrowForward,
   ArrowRight, } from './HeroElements'
 import { Button } from '../ButtonElements';
-import bg from '../../images/mainbg.png';
+import bg from '../../images/mainbg.jpg';
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -13,11 +13,11 @@ const HeroSection = () => {
     <div>
       <HeroContainer id='home' style={{ backgroundImage: 'url(' + bg + ')' }}>
         <HeroContent>
-          <HeroH1>
+          {/* <HeroH1>
             $WRLD Horses
-          </HeroH1>
+          </HeroH1> */}
           <HeroP>
-          The ultimate Play to Earn horse racing metaverse.
+            The ultimate Play to Earn horse racing metaverse.
           </HeroP>
         </HeroContent>
         <HeroBtnWrapper>
