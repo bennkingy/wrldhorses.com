@@ -7,27 +7,9 @@ export const ServicesContainer = styled.div`
   align-items: center;
   background: #fff;
   padding: 100px 0;
-  min-height: calc(100vh - 50px);
+  min-height: 100%;
 `
 
-export const ServicesWrapper = styled.div`
-  max-width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  grid-gap: 16px;
-  padding: 0 50px;
-
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-  }
-`
 
 export const TopLine = styled.p`
   color: #5B8731;
