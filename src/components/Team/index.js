@@ -54,7 +54,7 @@ const Team = () => {
             </ServicesP>
           </ServicesCard>
           </a>
-          <a href="#" target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
+          <a href="https://twitter.com/WalmsleySol" target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
           <ServicesCard>
             <ServicesIcon src={Icon6} />
             <ServicesH2>Mod</ServicesH2>
