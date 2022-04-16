@@ -12,7 +12,7 @@ export const homeObjOne = {
   headline: 'About',
   description:
     '$WRLD Horses is a competitive horse racing game in which players can race, play and breed horse NFTs with unique physical attributes and stats.',
-  buttonLabel: 'Read whitepaper',
+  buttonLabel: 'Whitepaper',
   imgStart: false,
   img: svgOne,
   bg: smallbg,
