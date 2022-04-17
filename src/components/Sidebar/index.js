@@ -2,6 +2,13 @@ import React from 'react'
 import { SidebarContainer,NavBtnLink, CloseIcon, Icon, SideBtnWrap, SidebarLink, SidebarRoute, SidebarMenu, SidebarWrapper } from './SidebarElements'
 
 const Sidebar = ({isOpen, toggle}) => {
+
+
+  function connectWallet() {
+    window?.ethereum.request({ method: 'eth_requestAccounts' });
+  }    
+
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon>
@@ -23,7 +30,7 @@ const Sidebar = ({isOpen, toggle}) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <NavBtnLink>Connect Wallet</NavBtnLink>
+          <NavBtnLink  onClick={connectWallet}>Connect Wallet</NavBtnLink>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

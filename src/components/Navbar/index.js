@@ -27,6 +27,10 @@ const Navbar = ({ toggle }) => {
     }
   }, [])
 
+  function connectWallet() {
+    window?.ethereum.request({ method: 'eth_requestAccounts' });
+  }    
+  
   return (
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
@@ -68,7 +72,7 @@ const Navbar = ({ toggle }) => {
           <NavItem>
             <NavLinks to='faqs'
               smooth={true}
-              duration={500}
+              duration={500}  
               spy={true}
               exact='true'
               offset={-80}
@@ -76,7 +80,7 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink>Connect Wallet</NavBtnLink>
+          <NavBtnLink onClick={connectWallet}>Connect Wallet</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>

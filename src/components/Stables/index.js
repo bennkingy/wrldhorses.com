@@ -12,7 +12,7 @@ const Stables = () => {
       <ServicesContainer id='stables'>
         <TopLine>$WRLD Horses</TopLine>
         <ServicesH1>Stables</ServicesH1>
-          View your horses in the Stables. Coming soon!
+          View your horse NFTs in the Stables. Coming soon!
       </ServicesContainer>
     </>
   )
