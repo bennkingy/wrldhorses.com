@@ -47,8 +47,8 @@ const btnhandler = () => {
       <ServicesContainer id='stables'>
         <TopLine>$WRLD Horses</TopLine>
         <ServicesH1>Stables</ServicesH1>
-          View your horse NFTs in the Stables. Coming soon!<br/><br/>
-          <p onClick={btnhandler}><b>(0) horses owned</b></p>
+          View your horse NFTs in the Stables.<br/><br/>
+          <p><b>(0) horses owned</b></p>
       </ServicesContainer>
     </>
   )

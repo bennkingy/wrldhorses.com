@@ -3,12 +3,10 @@ import { SidebarContainer,NavBtnLink, CloseIcon, Icon, SideBtnWrap, SidebarLink,
 
 const Sidebar = ({isOpen, toggle}) => {
 
-
   function connectWallet() {
     window?.ethereum.request({ method: 'eth_requestAccounts' });
   }    
-
-
+  
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon>
