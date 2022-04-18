@@ -14,7 +14,7 @@ import {
   homeObjThree,
 } from '../components/InfoSection/Data'
 
-const Home = () => {
+const Home = ({childFunc}) => {
 
   const [isOpen, setIsOpen] = useState(false)
 
@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <>
-      <NavBar toggle={toggle} />
+      <NavBar toggle={toggle} WalletCard />
       <SideBar isOpen={isOpen} toggle={toggle} />
       <HeroSection/>
       <InfoSection {...homeObjOne} />

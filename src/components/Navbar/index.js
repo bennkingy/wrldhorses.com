@@ -27,12 +27,6 @@ const Navbar = ({ toggle }) => {
     }
   }, [])
 
-  function connectWallet() {
-    if(window?.ethereum){
-      window.ethereum.request({ method: 'eth_requestAccounts' });
-    }
-  }    
-  
   return (
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
@@ -82,7 +76,7 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink onClick={connectWallet}>{window?.ethereum.selectedAddres == null ? 'Connect Wallet' : 'Wallet Connected'}</NavBtnLink>
+          <NavBtnLink>Connect Wallet</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>
