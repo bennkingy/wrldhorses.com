@@ -6,16 +6,13 @@ import SigninPage from './pages/SigninPage'
 
 function App() {
 
-  const [walletAddress, setWalletAddress] = useState("");
-
-  function getWallet(wallet) {
-    setWalletAddress(wallet);
-  }
+  // MAKE SURE WALLET ID IS AVAILABLE HERE
 
   return (
     <Router>
       <Switch>
-        <Route path='/' component={Home} exact setWallet={() => getWallet()}/>
+       {/* // PASS WALLET ID DOWN TO OTHER COMPONENTS */}
+        <Route path='/' component={Home} exact/>
       </Switch>
     </Router>
   )
