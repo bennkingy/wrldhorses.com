@@ -64,7 +64,7 @@ const Home = () => {
   return (
     <>
       <NavBar toggle={toggle} connectWallet={connectWallet} account={account}/>
-      <SideBar isOpen={isOpen} toggle={toggle} connectWallet={connectWallet}/>
+      <SideBar isOpen={isOpen} toggle={toggle} connectWallet={connectWallet} account={account}/>
       <HeroSection/>
       <InfoSection {...homeObjOne} />
       <Stables data={horseImgs && horseImgs} />

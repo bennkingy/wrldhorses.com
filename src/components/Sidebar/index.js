@@ -1,7 +1,7 @@
 import React from 'react'
 import { SidebarContainer,NavBtnLink, CloseIcon, Icon, SideBtnWrap, SidebarLink, SidebarRoute, SidebarMenu, SidebarWrapper } from './SidebarElements'
 
-const Sidebar = ({isOpen, toggle, connectWallet}) => {
+const Sidebar = ({isOpen, toggle, connectWallet, account}) => {
   
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
