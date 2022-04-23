@@ -4,7 +4,7 @@ import { NavLogoImg, Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem
 import { FaBars } from 'react-icons/fa'
 import logo from './../../images/logo.png';
 
-const Navbar = ({ toggle, connectWallet }) => {
+const Navbar = ({ toggle, connectWallet, account }) => {
 
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -76,7 +76,7 @@ const Navbar = ({ toggle, connectWallet }) => {
           </NavItem>
         </NavMenu>
         <NavBtn onClick={() => connectWallet()}>
-          <NavBtnLink>{window?.ethereum?.accounts?.length > 0 ? 'Connected' : 'Connect Wallet'}</NavBtnLink>
+          <NavBtnLink>{!!account == false ? 'Connect Wallet' : 'Connected'}</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>

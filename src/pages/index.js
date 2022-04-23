@@ -26,9 +26,10 @@ const Home = () => {
   useEffect(() => {
     getOpenseaItems() 
     connectWallet()
-  },[])
+  }, [account])
   
   async function getOpenseaItems()  {
+    console.log('foobar');
     axios
       .get(`https://api.opensea.io/api/v1/assets?owner=${account}`)
       .then(res => {
@@ -60,13 +61,9 @@ const Home = () => {
       }
   }
 
-  console.log('account', account)
-
-  console.log('horse img', horseImgs)
-
   return (
     <>
-      <NavBar toggle={toggle} connectWallet={connectWallet} />
+      <NavBar toggle={toggle} connectWallet={connectWallet} account={account}/>
       <SideBar isOpen={isOpen} toggle={toggle} connectWallet={connectWallet}/>
       <HeroSection/>
       <InfoSection {...homeObjOne} />

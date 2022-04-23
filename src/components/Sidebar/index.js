@@ -24,7 +24,7 @@ const Sidebar = ({isOpen, toggle, connectWallet}) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <NavBtnLink onClick={() => connectWallet()}>Connect Wallet</NavBtnLink>
+          <NavBtnLink onClick={() => connectWallet()}>{!!account == false ? 'Connect Wallet' : 'Connected'}</NavBtnLink>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
