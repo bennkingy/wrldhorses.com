@@ -3,10 +3,13 @@ import { animateScroll as scroll } from 'react-scroll';
 import { NavLogoImg, Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
 import logo from './../../images/logo.png';
+import { connectWallet } from '../crypto';
 
 const Navbar = ({ toggle }) => {
 
   const [scrollNav, setScrollNav] = useState(false);
+
+  const [wallet, setWallet] = useState("");
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -75,8 +78,8 @@ const Navbar = ({ toggle }) => {
             >FAQs</NavLinks>
           </NavItem>
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink>Connect Wallet</NavBtnLink>
+        <NavBtn onClick={connectWallet}>
+          <NavBtnLink>{window?.ethereum?.accounts?.length > 0 ? 'Connected' : 'Connect Wallet'}</NavBtnLink>
         </NavBtn>
       </NavbarContainer>
     </Nav>

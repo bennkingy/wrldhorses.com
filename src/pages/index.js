@@ -24,7 +24,7 @@ const Home = ({childFunc}) => {
 
   return (
     <>
-      <NavBar toggle={toggle} WalletCard />
+      <NavBar toggle={toggle}  />
       <SideBar isOpen={isOpen} toggle={toggle} />
       <HeroSection/>
       <InfoSection {...homeObjOne} />
