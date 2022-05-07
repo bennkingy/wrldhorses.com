@@ -138,7 +138,6 @@ body .show-faq-1, body .show-faq-2, .show-faq-3, .show-faq-4, .show-faq-5, .show
   height: 480px;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
   z-index: 9;
 }
 
