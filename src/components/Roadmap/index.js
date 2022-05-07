@@ -45,14 +45,16 @@ const Roadmap = () => {
             <p><b>Renting</b><br/>Staked Horse NFTs can be rented to racers. Owners and racers share $WRLD rewards.</p>
             </div>
           </div>
-          {/* <div class="entry">
+          <div class="entry">
             <div class="title">August</div>
             <div class="body">
-              <p><b>Staking.</b> Stake your Horse NFT for in-game items to like speed potions.</p>
-              <br/>
-              <p><b>Land sale.</b> 500 stable plots will be sold arond the kingdoms.</p>
+            <p><b>Alpha Story Mode</b><br/> Introduction to the Nine Kingdoms of Phaeton. Players can quest for $WRLD rewards.</p>
+            <br/>
+            <p><b>Competitive incentives</b><br/> Tournaments and ranking systems which earn $WRLD rewards.</p>
+            <br/>
+            <p><b>Social incentives</b><br/> Incentivised spectating and chill out spaces.</p>
             </div>
-          </div> */}
+          </div>
           {/* <div class="entry">
             <div class="title">Spetmember</div>
             <div class="body">
