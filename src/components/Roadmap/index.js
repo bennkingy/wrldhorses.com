@@ -20,46 +20,45 @@ const Roadmap = () => {
         </div>
         <div class="entries">
           <div class="entry">
-            <div class="title">2011</div>
+            <div class="title">May 2022</div>
             <div class="body">
-              <p>Neque sunt voluptatibus repellat pariatur ut enim. Eveniet rerum suscipit eveniet amet dignissimos. Doloremque et distinctio quod molestiae ut.</p>
+              <p>The Genesis Horse collection will mint on 14th May 2022.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">2012</div>
+            <div class="title">June 2022</div>
             <div class="body">
-              <p>Quo nobis cumque dolor iure voluptatem voluptatem alias soluta.</p>
+              <p>Alpha game release. Race and win $WRLD against your frens!</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title big">2013</div>
+            <div class="title big">July 2022</div>
             <div class="body">
-              <p>Rerum sit libero possimus amet excepturi. Exercitationem enim dolores sunt praesentium dolorum praesentium.</p>
+              <p>Staking. Stake your Horse NFT for in-game items.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">2014</div>
+            <div class="title">August 2022</div>
             <div class="body">
-              <p>Voluptatibus veniam ea reprehenderit atque. Reiciendis non laborum adipisci ipsa pariatur omnis. Sed ipsam repudiandae velit. Omnis libero nostrum aperiam nemo dolor ea eos eius. Esse a non itaque quidem.</p>
+              <p>Renting. Rent your Horse NFT and earn while other players race for you.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">2015</div>
+            <div class="title">Spetmember 2022</div>
             <div class="body">
-              <p>VAdipisci totam omnis cum et suscipit excepturi et excepturi. Inventore sequi sit ut aliquid. Modi aut dolores dignissimos.</p>
-              <p>Delectus facere officia consequuntur molestias deserunt illo. Placeat laudantium beatae natus excepturi ab nihil voluptates.</p>
+              <p>PVP. Shoot and win $WRLD with a bow and arrow on your horse!</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title big">2016</div>
+            <div class="title big">October 2022</div>
             <div class="body">
-              <p>Impedit dolorem commodi explicabo fugit aut alias voluptatem. Magnam earum rerum quae dicta quibusdam aliquam ut.</p>
+              <p>Story mode. Releasing a quest line and exp points!</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">2017</div>
+            <div class="title">November 2022</div>
             <div class="body">
-              <p>Qui facere eos aut suscipit doloremque quos...</p>
+              <p>Breeding! You can breed you Horse NFT to create gen 2s on Polygon.</p>
             </div>
           </div>
         </div>
