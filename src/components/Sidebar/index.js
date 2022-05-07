@@ -19,6 +19,9 @@ const Sidebar = ({isOpen, toggle, connectWallet, account}) => {
           <SidebarLink to="services" onClick={toggle}>
             Team
           </SidebarLink>
+          <SidebarLink to='roadmap'onClick={toggle}>
+            Roadmap
+          </SidebarLink>
           <SidebarLink to="faqs" onClick={toggle}>
             FAQs
           </SidebarLink>

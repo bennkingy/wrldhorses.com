@@ -6,6 +6,7 @@ import InfoSection from "../components/InfoSection"
 import Team from '../components/Team'
 import Footer from '../components/Footer'
 import Stables from '../components/Stables'
+import Roadmap from '../components/Roadmap'
 import FAQss from '../components/FAQss'
 import axios from 'axios';
 import { ethers } from 'ethers';
@@ -29,11 +30,12 @@ const Home = () => {
   }, [account])
   
   async function getOpenseaItems()  {
-    console.log('foobar');
     axios
-      .get(`https://api.opensea.io/api/v1/assets?owner=${account}`)
+      // https://testnets-api.opensea.io/api/v1
+      .get(`https://testnets-api.opensea.io/api/v1/assets?owner=${account}`)
       .then(res => {
-        sethorseImgs(res.data.assets);
+        console.log(res.data.assets);
+        sethorseImgs(res.data.assets.filter(assets => assets.assets[1].creator.address !== '0x112a4de6dee6f8ee30a77d7d3549991b7b75c01d'));
     })
     .catch(err => console.error(err));
   }
@@ -69,6 +71,7 @@ const Home = () => {
       <InfoSection {...homeObjOne} />
       <Stables data={horseImgs && horseImgs} />
       <Team />
+      <Roadmap />
       <FAQss />
       <Footer />
     </>

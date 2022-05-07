@@ -49,7 +49,7 @@ export const ServicesCard = styled.div`
   border-radius: 10px;
   max-height: 340px;
   text-decoration: none !important;
-  padding: 30px;
+  padding: 26px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 

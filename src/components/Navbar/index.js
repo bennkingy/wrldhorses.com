@@ -66,6 +66,15 @@ const Navbar = ({ toggle, connectWallet, account }) => {
             >Team</NavLinks>
           </NavItem>
           <NavItem>
+            <NavLinks to='roadmap'
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact='true'
+              offset={-80}
+            >Roadmap</NavLinks>
+          </NavItem>
+          <NavItem>
             <NavLinks to='faqs'
               smooth={true}
               duration={500}  

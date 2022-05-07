@@ -22,3 +22,123 @@ body .show-faq-1, body .show-faq-2, .show-faq-3, .show-faq-4, .show-faq-5, .show
     height: 100%;
   }
 } */
+
+/* roadmap */
+
+.roadmaptitles {
+  padding-top: 100px;
+  background: white;
+    z-index: 9999;
+    padding-bottom: 20px;
+}
+#roadmap {
+  transform: rotate3d(1, 1, 1, 0deg);
+  overflow: hidden;
+}
+#roadmap > div.entries:before {
+  content: "";
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  width: 4px;
+  background-color: #5B8731;
+}
+#roadmap .entries {
+  width: calc(100% - 20px);
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  left: -5px;
+}
+@media(max-width: 600px) {
+  #roadmap .entries {
+    padding: 0 10px;
+  }
+}
+#roadmap .entries .entry {
+  width: calc(50% - 80px);
+  float: left;
+  padding: 20px;
+  clear: both;
+  text-align: right;
+}
+@media(max-width: 600px) {
+#roadmap .entries .entry {
+  width: calc(50% - 50px);
+}
+}
+@media(max-width: 600px) {
+  #roadmap .entries .entry:nth-child(odd) {
+    padding: 10px;
+    padding-left: 0px;
+  }
+  #roadmap .entries .entry:nth-child(even) {
+    padding: 10px;
+    padding-right: 0px;
+  }
+}
+#roadmap .entries .entry:first-child {
+  margin-top: 80px;
+}
+#roadmap .entries .entry:not(:first-child) {
+  margin-top: -60px;
+}
+#roadmap .entries .entry .title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  position: relative;
+  color: #5B8731;
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+#roadmap .entries .entry .title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid #5B8731;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -73px;
+  z-index: 1000;
+}
+#roadmap .entries .entry .title.big:before {
+  width: 24px;
+  height: 24px;
+  transform: translate(8px, -50%);
+}
+#roadmap .entries .entry #roadmap {
+  color: #aaa;
+}
+#roadmap .entries .entry #roadmap p {
+  line-height: 1.4em;
+}
+#roadmap .entries .entry:nth-child(2n) {
+  text-align: left;
+  float: right;
+}
+#roadmap .entries .entry:nth-child(2n) .title:before {
+  left: -63px;
+}
+#roadmap .entries .entry:nth-child(2n) .title.big:before {
+  transform: translate(-8px, -50%);
+}
+
+#playersplaying {
+  height: 480px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 9;
+}
+
+#whitespace {
+  height: 100px;
+  background: #fff;
+  z-index: 999;
+}
