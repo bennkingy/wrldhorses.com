@@ -30,7 +30,7 @@ const Roadmap = () => {
             <div class="body">
               <p><b>NFT implementation</b><br/>Ride your horse NFTs in-game with unique stats and appearance.</p>
               <br/>
-              <p><b>OG racetrack</b><br/>Race against frens for $WRLD on our OG race track.</p>
+              <p><b>OG racetrack</b><br/>Race against frens for $WRLD on our OG race track. Compete for $WRLD rewards by being top 10 on the leaderboards.</p>
               <br/>
               <p><b>Colosseum racetrack</b><br/>Race with the best on our most dangerous course!</p>
               <br/>
