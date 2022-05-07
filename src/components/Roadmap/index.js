@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../../images/players.png';
+import bg from '../../images/players.jpg';
 
 import {
   RoadmapContainer,
