@@ -54,6 +54,14 @@ const Roadmap = () => {
             <br/>
             <p><b>Social incentives</b><br/> Incentivised spectating and chill out spaces.</p>
             </div>
+            </div>
+            <div class="entry">
+            <div class="title big">Q4</div>
+            <div class="body">
+            <p><b>Breeding</b><br/> Breed Genesis Horse NFTs in-game to create Gen 2 Horse NFTs. Only Genesis Horses can breed to prevent hyper-inflationary supply.</p>
+            <br/> <p><b>Teams</b><br/> Team races, ranking systems and registering will be established. </p>
+            <br/><p><b>Land Sale</b><br/> Land sale to build in-game player run businesses will be introduced.</p>
+            </div>        
           </div>
           {/* <div class="entry">
             <div class="title">Spetmember</div>
