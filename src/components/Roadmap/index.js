@@ -20,47 +20,55 @@ const Roadmap = () => {
         </div>
         <div class="entries">
           <div class="entry">
-            <div class="title">May 2022</div>
+            <div class="title">May</div>
             <div class="body">
-              <p>The Genesis Horse collection will mint on 14th May 2022.</p>
+              <p><b>6969.</b> The Genesis Horse collection will mint on 14th May 2022.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">June 2022</div>
+            <div class="title">June</div>
             <div class="body">
-              <p>Alpha game release. Race and win $WRLD against your frens!</p>
+              <p><b>OG racetrack.</b> Race and win $WRLD against your frens. Community incentives in $WRLD.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title big">July 2022</div>
+            <div class="title">July</div>
             <div class="body">
-              <p>Staking. Stake your Horse NFT for in-game items.</p>
+              <p><b>PVP racetrack.</b> PVP race and win $WRLD against your frens. Hard difficulty.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">August 2022</div>
+            <div class="title big">August</div>
             <div class="body">
-              <p>Renting. Rent your Horse NFT and earn while other players race for you.</p>
+              <p><b>Staking.</b> Stake your Horse NFT for in-game items to aid you like speed potions.</p>
+              <br/>
+              <p><b>Land sale.</b> 500 stable plots will be sold arond the kingdoms.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">Spetmember 2022</div>
+            <div class="title">Spetmember</div>
             <div class="body">
-              <p>PVP. Shoot and win $WRLD with a bow and arrow on your horse!</p>
+              <p><b>Renting.</b> Rent your Horse NFT and earn $WRLD as others players race for you.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title big">October 2022</div>
+            <div class="title">October</div>
             <div class="body">
-              <p>Story mode. Releasing a quest line and exp points!</p>
+              <p><b>Story mode.</b> Releasing a crazy quest line story mode and levels.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">November 2022</div>
+            <div class="title big">November</div>
             <div class="body">
-              <p>Breeding! You can breed you Horse NFT to create gen 2s on Polygon.</p>
+            <p><b>Breeding.</b> You can breed you Horse NFT to create gen 2s on Polygon.</p>
             </div>
           </div>
+          {/* <div class="entry">
+            <div class="title">December</div>
+            <div class="body">
+              <p><b>Breeding.</b> You can breed you Horse NFT to create gen 2s on Polygon.</p>
+            </div>
+          </div> */}
         </div>
         <div id='whitespace'>
 
