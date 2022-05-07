@@ -51,10 +51,12 @@ body .show-faq-1, body .show-faq-2, .show-faq-3, .show-faq-4, .show-faq-5, .show
   margin: auto;
   position: relative;
   left: -5px;
+  padding-bottom: 65px;
 }
 @media(max-width: 600px) {
   #roadmap .entries {
     padding: 0 10px;
+    padding-bottom: 80px;
   }
 }
 #roadmap .entries .entry {
@@ -137,8 +139,14 @@ body .show-faq-1, body .show-faq-2, .show-faq-3, .show-faq-4, .show-faq-5, .show
   z-index: 9;
 }
 
+@media(max-width: 600px) {
+#playersplaying {
+  background-attachment: initial;
+}
+}
+
 #whitespace {
-  height: 100px;
+  height: 115px;
   background: #fff;
   z-index: 999;
 }
