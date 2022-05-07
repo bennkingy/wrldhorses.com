@@ -80,6 +80,9 @@ body .show-faq-1, body .show-faq-2, .show-faq-3, .show-faq-4, .show-faq-5, .show
     padding: 10px;
     padding-right: 0px;
   }
+  #roadmap .entries .entry .title {
+    font-size: 23px !important;
+  }
 }
 #roadmap .entries .entry:first-child {
   margin-top: 80px;
