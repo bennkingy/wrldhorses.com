@@ -29,6 +29,7 @@ const Roadmap = () => {
             <div class="title">June</div>
             <div class="body">
               <p><b>OG racetrack.</b> Race and win $WRLD against frens on your Horse NFTs.</p>
+              <br/>
               <p><b>PVP.</b> PVP and win $WRLD against your frens.</p>
             </div>
           </div>
