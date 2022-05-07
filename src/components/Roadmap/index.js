@@ -20,17 +20,24 @@ const Roadmap = () => {
         </div>
         <div class="entries">
           <div class="entry">
-            <div class="title big">May</div>
+            <div class="title">May</div>
             <div class="body">
-              <p><b>6969.</b> The Genesis Horse collection will mint on 14th May 2022.</p>
+              <p><b>6969</b><br/>The Genesis Horse collection will mint on 14th May 2022.</p>
             </div>
           </div>
           <div class="entry">
-            <div class="title">June</div>
+            <div class="title big">June</div>
             <div class="body">
-              <p><b>OG racetrack.</b> Race and win $WRLD against frens on your Horse NFTs.</p>
+              <p><b>OG racetrack</b><br/>
+              Race and win $WRLD against frens on your Horse NFTs.</p>
               <br/>
-              <p><b>PVP.</b> PVP and win $WRLD against your frens.</p>
+              <p><b>NFT implementation</b><br/>Ride your horse NFTs in-game with unique stats and appearance.</p>
+              <br/>
+              <p><b>OG racetrack</b><br/>Race against frens for $WRLD on our OG race track.</p>
+              <br/>
+              <p><b>Colosseum racetrack</b><br/>Race with the best on our most dangerous course!</p>
+              <br/>
+              <p><b>Horseback PvP</b><br/>Battle against your frens for $WRLD in our first PvP combat arena.</p>
             </div>
           </div>
           <div class="entry">
@@ -40,7 +47,7 @@ const Roadmap = () => {
             </div>
           </div>
           <div class="entry">
-            <div class="title big">August</div>
+            <div class="title">August</div>
             <div class="body">
               <p><b>Staking.</b> Stake your Horse NFT for in-game items to like speed potions.</p>
               <br/>
@@ -60,7 +67,7 @@ const Roadmap = () => {
             </div>
           </div>
           <div class="entry">
-            <div class="title big">November</div>
+            <div class="title">November</div>
             <div class="body">
             <p><b>Breeding.</b> You can breed you Horse NFT to create gen 2s on Polygon.</p>
             </div>
