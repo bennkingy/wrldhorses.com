@@ -28,19 +28,20 @@ const Roadmap = () => {
           <div class="entry">
             <div class="title">June</div>
             <div class="body">
-              <p><b>OG racetrack.</b> Race and win $WRLD against your frens. Community incentives in $WRLD.</p>
+              <p><b>OG racetrack.</b> Race and win $WRLD against frens on your Horse NFTs.</p>
+              <p><b>PVP.</b> PVP and win $WRLD against your frens.</p>
             </div>
           </div>
           <div class="entry">
             <div class="title">July</div>
             <div class="body">
-              <p><b>PVP racetrack.</b> PVP race and win $WRLD against your frens. Hard difficulty.</p>
+              <p><b>2nd racetrack.</b> Difficulty hard mode, more crazy racetrack!</p>
             </div>
           </div>
           <div class="entry">
             <div class="title big">August</div>
             <div class="body">
-              <p><b>Staking.</b> Stake your Horse NFT for in-game items to aid you like speed potions.</p>
+              <p><b>Staking.</b> Stake your Horse NFT for in-game items to like speed potions.</p>
               <br/>
               <p><b>Land sale.</b> 500 stable plots will be sold arond the kingdoms.</p>
             </div>
