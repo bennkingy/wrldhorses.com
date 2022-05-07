@@ -45,15 +45,15 @@ const Roadmap = () => {
             <p><b>Renting</b><br/>Staked Horse NFTs can be rented to racers. Owners and racers share $WRLD rewards.</p>
             </div>
           </div>
-          <div class="entry">
+          {/* <div class="entry">
             <div class="title">August</div>
             <div class="body">
               <p><b>Staking.</b> Stake your Horse NFT for in-game items to like speed potions.</p>
               <br/>
               <p><b>Land sale.</b> 500 stable plots will be sold arond the kingdoms.</p>
             </div>
-          </div>
-          <div class="entry">
+          </div> */}
+          {/* <div class="entry">
             <div class="title">Spetmember</div>
             <div class="body">
               <p><b>Renting.</b> Rent your Horse NFT and earn $WRLD as others players race for you.</p>
@@ -70,7 +70,7 @@ const Roadmap = () => {
             <div class="body">
             <p><b>Breeding.</b> You can breed you Horse NFT to create gen 2s on Polygon.</p>
             </div>
-          </div>
+          </div> */}
           {/* <div class="entry">
             <div class="title">December</div>
             <div class="body">
