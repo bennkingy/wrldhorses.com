@@ -40,7 +40,9 @@ const Roadmap = () => {
           <div class="entry">
             <div class="title">July</div>
             <div class="body">
-              <p><b>2nd racetrack.</b> Difficulty hard mode, more crazy racetrack!</p>
+            <p><b>Staking</b><br/>Stake your Horse NFT to earn in-game items.</p>
+            <br/>
+            <p><b>Renting</b><br/>Staked Horse NFTs can be rented to racers. Owners and racers share $WRLD rewards.</p>
             </div>
           </div>
           <div class="entry">
