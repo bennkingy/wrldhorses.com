@@ -31,7 +31,7 @@ const Navbar = ({ toggle, connectWallet, account }) => {
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
         <NavLogo to='/' onClick={toggleHome}>
-          <NavLogoImg src={logo} alt='$WRLD Horses' />$WRLD HORSES
+          <NavLogoImg src={logo} alt='$WRLD Horses' /><span style={{'marginTop': -5}}>$WRLD HORSES</span>
         </NavLogo>
         <MobileIcon onClick={toggle}>
          <FaBars/>
