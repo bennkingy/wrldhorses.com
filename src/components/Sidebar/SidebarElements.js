@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll'
 import { Link as LinkR } from 'react-router-dom'
 
 export const SidebarContainer = styled.nav`
-  display:  ${({ isOpen }) => (!isOpen ? 'none !important' : 'block !important')};
+  // display:  ${({ isOpen }) => (!isOpen ? 'none !important' : 'block !important')};
   position: fixed;
   z-index: 999;
   width: 100%;
