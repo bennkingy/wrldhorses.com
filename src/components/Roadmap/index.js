@@ -22,7 +22,7 @@ const Roadmap = () => {
           <div class="entry">
             <div class="title">May</div>
             <div class="body">
-              <p><b>6969</b><br/>The Genesis Horse collection will mint at the end of May 2022.</p>
+              <p><b>6969</b><br/>The Genesis Horse collection will likely mint at the end of May 2022.</p>
             </div>
           </div>
           <div class="entry">
