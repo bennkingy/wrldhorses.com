@@ -22,6 +22,7 @@ import {
 } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll'
 import logo from './../../images/logo.png';
+import logo2 from './../../images/horseicon.svg';
 
 const Footer = () => {
   const toggleHome = () => {
@@ -73,7 +74,7 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to='/' onClick={toggleHome}>
-                <FooterLogoImg src={logo} alt='$WRLD Horses' />
+                <FooterLogoImg src={logo2} alt='$WRLD Horses' />
               </SocialLogo>
               <WebsiteRights>
                 &copy; {new Date().getFullYear()} $WRLD Horses. All Rights

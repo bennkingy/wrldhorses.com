@@ -83,7 +83,7 @@ export const SocialMediaWrap = styled.div`
   }
 `
 export const FooterLogoImg = styled.img`
-  width: 175px;
+  width: 35px;
   margin-bottom: 0;
 `
 export const SocialLogo = styled(Link)`
