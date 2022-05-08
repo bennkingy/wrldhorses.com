@@ -22,7 +22,7 @@ const Roadmap = () => {
           <div class="entry">
             <div class="title">May</div>
             <div class="body">
-              <p><b>6969</b><br/>The Genesis Horse collection will mint on 14th May 2022.</p>
+              <p><b>6969</b><br/>The Genesis Horse collection will mint at the end of May 2022.</p>
             </div>
           </div>
           <div class="entry">
@@ -48,45 +48,21 @@ const Roadmap = () => {
           <div class="entry">
             <div class="title">August</div>
             <div class="body">
-            <p><b>Alpha Story Mode</b><br/> Introduction to the Nine Kingdoms of Phaeton. Players can quest for $WRLD rewards.</p>
+            <p><b>Alpha Story Mode</b><br/>Introduction to the Nine Kingdoms of Phaeton. Players can quest for $WRLD rewards.</p>
             <br/>
-            <p><b>Competitive incentives</b><br/> Tournaments and ranking systems which earn $WRLD rewards.</p>
+            <p><b>Competitive incentives</b><br/>Tournaments and ranking systems which earn $WRLD rewards.</p>
             <br/>
-            <p><b>Social incentives</b><br/> Incentivised spectating and chill out spaces.</p>
+            <p><b>Social incentives</b><br/>Incentivised spectating and chill out spaces.</p>
             </div>
             </div>
             <div class="entry">
             <div class="title big">Q4</div>
             <div class="body">
-            <p><b>Breeding</b><br/> Breed Genesis Horse NFTs in-game to create Gen 2 Horse NFTs. Only Genesis Horses can breed to prevent hyper-inflationary supply.</p>
-            <br/> <p><b>Teams</b><br/> Team races, ranking systems and registering will be established. </p>
-            <br/><p><b>Land Sale</b><br/> Land sale to build in-game player run businesses will be introduced.</p>
+            <p><b>Breeding</b><br/>Breed Genesis Horse NFTs in-game to create Gen 2 Horse NFTs. Only Genesis Horses can breed to prevent hyper-inflationary supply.</p>
+            <br/><p><b>Teams</b><br/>Team races, ranking systems and registering will be established.</p>
+            <br/><p><b>Land Sale</b><br/>Land sale to build in-game player run businesses will be introduced.</p>
             </div>        
           </div>
-          {/* <div class="entry">
-            <div class="title">Spetmember</div>
-            <div class="body">
-              <p><b>Renting.</b> Rent your Horse NFT and earn $WRLD as others players race for you.</p>
-            </div>
-          </div>
-          <div class="entry">
-            <div class="title">October</div>
-            <div class="body">
-              <p><b>Story mode.</b> Releasing a crazy quest line story mode and levels.</p>
-            </div>
-          </div>
-          <div class="entry">
-            <div class="title">November</div>
-            <div class="body">
-            <p><b>Breeding.</b> You can breed you Horse NFT to create gen 2s on Polygon.</p>
-            </div>
-          </div> */}
-          {/* <div class="entry">
-            <div class="title">December</div>
-            <div class="body">
-              <p><b>Breeding.</b> You can breed you Horse NFT to create gen 2s on Polygon.</p>
-            </div>
-          </div> */}
         </div>
         <div id='whitespace'>
 
