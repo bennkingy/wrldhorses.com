@@ -119,4 +119,6 @@ export const Img = styled.img`
   width: fit-content;
   margin: 0 auto;
   padding-right: 0;
+  max-width: 400px;
+  width: 100%;
 `
