@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { NavLogoImg, Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
-import logo from './../../images/logo.png';
+import logo from './../../images/horseicon.svg';
 
 const Navbar = ({ toggle, connectWallet, account }) => {
 
@@ -31,7 +31,7 @@ const Navbar = ({ toggle, connectWallet, account }) => {
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
         <NavLogo to='/' onClick={toggleHome}>
-          <NavLogoImg src={logo} alt='$WRLD Horses' />
+          <NavLogoImg src={logo} alt='$WRLD Horses' />$WRLD HORSES
         </NavLogo>
         <MobileIcon onClick={toggle}>
          <FaBars/>
