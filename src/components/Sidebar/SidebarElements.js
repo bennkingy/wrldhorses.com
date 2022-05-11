@@ -15,7 +15,7 @@ export const SidebarContainer = styled.nav`
   left: 0;
   transition: 0.3s ease-in-out;
   opactiy: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  top: ${({ isOpen }) => (isOpen ? '0' : '-100vh')};
   height: 100vh;
 `   
 
