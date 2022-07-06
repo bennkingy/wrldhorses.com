@@ -22,7 +22,7 @@ const Roadmap = () => {
           <div class="entry">
             <div class="title">May</div>
             <div class="body">
-              <p><b>10000</b><br/>The Genesis Horse collection will mint on Saturday the 9th July 2022 on the Ethereum blockchain.</p>
+              <p><b>10000</b><br/>The 10k Genesis Horse collection will mint on Saturday the 9th July 2022 on the Ethereum blockchain.</p>
             </div>
           </div>
           <div class="entry">
