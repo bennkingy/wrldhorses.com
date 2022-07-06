@@ -41,7 +41,6 @@ const Home = () => {
   }
 
   async function requestAccount() {
-  
     if(window.ethereum) {
       try {
       const accounts = await window.ethereum.request({
