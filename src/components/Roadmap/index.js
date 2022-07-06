@@ -20,14 +20,10 @@ const Roadmap = () => {
         </div>
         <div class="entries">
           <div class="entry">
-            <div class="title">May</div>
+            <div class="title big">July</div>
             <div class="body">
               <p><b>10000</b><br/>The 10k Genesis Horse collection will mint on Saturday the 9th July 2022 on the Ethereum blockchain.</p>
-            </div>
-          </div>
-          <div class="entry">
-            <div class="title big">June</div>
-            <div class="body">
+              <br/>
               <p><b>NFT implementation</b><br/>Ride your horse NFTs in-game with unique stats and appearance.</p>
               <br/>
               <p><b>OG racetrack</b><br/>Race against frens for $WRLD on our OG race track. Compete for $WRLD rewards by being top 10 on the leaderboards.</p>
@@ -38,7 +34,7 @@ const Roadmap = () => {
             </div>
           </div>
           <div class="entry">
-            <div class="title">July</div>
+            <div class="title">August</div>
             <div class="body">
             <p><b>Staking</b><br/>Stake your Horse NFT to earn in-game items.</p>
             <br/>
@@ -46,7 +42,7 @@ const Roadmap = () => {
             </div>
           </div>
           <div class="entry">
-            <div class="title">August</div>
+            <div class="title">September</div>
             <div class="body">
             <p><b>Alpha Story Mode</b><br/>Introduction to the Nine Kingdoms of Phaeton. Players can quest for $WRLD rewards.</p>
             <br/>
