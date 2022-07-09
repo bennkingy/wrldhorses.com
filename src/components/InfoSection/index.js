@@ -44,7 +44,7 @@ const InfoSection = ({
                 <SubTitle darkText={darkText}>{description}</SubTitle>
                 <BtnWrap>
 
-                <a href="https://docs.google.com/document/d/e/2PACX-1vT6WPnuA2QXgG7Z1H_jf7jbQV0L98jZ22VX4ww6yeyqTjoEDY9a2x3pi0ALsQ9CE2ov1COYgl91UT6z/pub" target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vRCtRSXtWt6LgwheviXScRYpbrpT_E7mmCd_xMOnYMvoFFnDmtTD7x1rTNnKrDcV4h5JvU3mgZww0xL/pub" target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
                 <Button
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
