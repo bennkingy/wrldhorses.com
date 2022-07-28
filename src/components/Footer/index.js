@@ -88,7 +88,7 @@ const Footer = () => {
                   <FaTwitter />
                 </SocialIconLink>
                 <SocialIconLink
-                  href='https://discord.gg/xbQks7R2'
+                  href='https://discord.gg/yqvT3BHyz8'
                   target='_blank'
                 >
                   <FaDiscord />
