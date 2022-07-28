@@ -19,7 +19,6 @@ const Stables = ({ data }) => {
           <Wrapper>
           {!data ? <p><b>(0) horses owned</b></p> :
              (data && data.filter(nft => nft.description == "$WRLD Horses: Genesis Horse Collection.").map((nft, i) => {
-                console.log(nft)
                 return (
                   <Img key={i} src={nft.image_url} width={210}></Img>
                 )
