@@ -36,7 +36,7 @@ const Team = () => {
             </ServicesP>
           </ServicesCard>
           </a>
-          <a href="https://twitter.com/k1ngydoteth"  target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
+          <a href="https://twitter.com/lolworld"  target="_blank" style={{textDecoration: 'none', color: '#010606'}}>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
             <ServicesH2>Founder / Developer</ServicesH2>

@@ -8,6 +8,8 @@ import {
 
 const Stables = ({ data }) => {
 
+  console.log(data);
+
   return (
     <>
       <ServicesContainer id='stables'>
@@ -15,9 +17,10 @@ const Stables = ({ data }) => {
         <ServicesH1>Stables</ServicesH1>
           View your horse NFTs in the Stables.<br/><br/>
           {!data ? <p><b>(0) horses owned</b></p> :
-             data.slice(0,4).map(nft => {
+             data.map(nft => {
+                console.log(nft)
                 return (
-                  <img src={nft.image_url} width={50}></img>
+                  <img src={nft.collection.image_url} width={50}></img>
                 )
             })
           } 
