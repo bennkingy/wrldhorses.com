@@ -33,7 +33,7 @@ const Home = () => {
     axios
       .get(`https://api.opensea.io/api/v1/assets?owner=${account}`)
       .then(res => {
-        sethorseImgs(res.data.assets.filter(assets => assets.assets[1].creator.address !== '0xf4ded30b6ca5a6a40f56d9fe066a9951571c6e3c'));
+        sethorseImgs(res.data.assets).filter(assets => assets.assets[1].creator.address == '0xf4ded30b6ca5a6a40f56d9fe066a9951571c6e3c')
     })
     .catch(err => console.error(err));
   }

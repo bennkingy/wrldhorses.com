@@ -12,6 +12,11 @@ export const ServicesContainer = styled.div`
 }
 `
 
+export const Img = styled.img`
+  float: left;
+  padding-right: 20px;
+`
+
 export const ServicesWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;

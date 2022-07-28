@@ -3,12 +3,11 @@ import React, { useState } from 'react';
 import {
   ServicesContainer,
   ServicesH1,
-  TopLine
+  TopLine,
+  Img
 } from './StablesElements';
 
 const Stables = ({ data }) => {
-
-  console.log(data);
 
   return (
     <>
@@ -17,10 +16,10 @@ const Stables = ({ data }) => {
         <ServicesH1>Stables</ServicesH1>
           View your horse NFTs in the Stables.<br/><br/>
           {!data ? <p><b>(0) horses owned</b></p> :
-             data.map(nft => {
+             data.map((nft, i) => {
                 console.log(nft)
                 return (
-                  <img src={nft.collection.image_url} width={50}></img>
+                  <Img key={i} src={nft.image_url} width={170}></Img>
                 )
             })
           } 
