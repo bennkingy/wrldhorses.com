@@ -13,8 +13,17 @@ export const ServicesContainer = styled.div`
 `
 
 export const Img = styled.img`
-  float: left;
-  padding-right: 20px;
+  // float: left;
+  // padding-right: 20px;
+`
+
+export const Wrapper = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: center;
+> * {
+  padding: 20px;
+}
 `
 
 export const ServicesWrapper = styled.div`

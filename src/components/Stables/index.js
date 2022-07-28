@@ -4,7 +4,8 @@ import {
   ServicesContainer,
   ServicesH1,
   TopLine,
-  Img
+  Img,
+  Wrapper
 } from './StablesElements';
 
 const Stables = ({ data }) => {
@@ -15,14 +16,16 @@ const Stables = ({ data }) => {
         <TopLine>$WRLD Horses</TopLine>
         <ServicesH1>Stables</ServicesH1>
           View your horse NFTs in the Stables.<br/><br/>
+          <Wrapper>
           {!data ? <p><b>(0) horses owned</b></p> :
              data.map((nft, i) => {
                 console.log(nft)
                 return (
-                  <Img key={i} src={nft.image_url} width={170}></Img>
+                  <Img key={i} src={nft.image_url} width={210}></Img>
                 )
             })
           } 
+          </Wrapper>
       </ServicesContainer>
     </>
   )
