@@ -26,7 +26,9 @@ const Stables = ({ data }) => {
                   <div>
                     <Img key={i} src={nft.image_url}></Img>
                     <div>
-                      {nft.traits.map(trait => {
+                      {nft.traits.sort(function(a, b) {
+                         return a.trait_type.localeCompare(b.trait_type);
+                      }).map(trait => {
                         return <div><b>{trait.trait_type.replace('_', ' ')+':'}</b>{' ' + trait.value.toString().replace('_', ' ')}</div>
                       })}
                     </div>
