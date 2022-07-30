@@ -13,7 +13,11 @@ const Stables = ({ data }) => {
 
   const [active, setActive] = useState(false);
 
-  const activeHorse = { activeHorse: { border:'5px solid red' } }
+  const handleClick = () => {
+    active ? setActive(undefined) : setActive(activeHorse.activeHorse);
+  };
+
+  const activeHorse = { activeHorse: { border:'5px solid #4a6f28' } }
 
   return (
     <>
@@ -25,7 +29,7 @@ const Stables = ({ data }) => {
           {!data.length > 0 ? <p><b>(0) horses owned</b></p> :
              (data && data.filter(nft => nft.description == "$WRLD Horses: Genesis Horse Collection.").map((nft, i) => {
                 return (
-                  <div onClick={() => setActive(!active)} style={active ? activeHorse.activeHorse : null}>
+                  <div style={active || undefined } onClick={handleClick}>
                     <Img key={i} src={nft.image_url}></Img>
                     <div>
                        {nft.traits.sort(function(a, b) {
