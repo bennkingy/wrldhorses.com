@@ -5,22 +5,32 @@ import {
   ServicesH1,
   TopLine,
   Img,
-  Wrapper
+  Wrapper,
+  ServicesP
 } from './StablesElements';
 
 const Stables = ({ data }) => {
+
+  // useState(active, setActive)
 
   return (
     <>
       <ServicesContainer id='stables'>
         <TopLine>$WRLD Horses</TopLine>
         <ServicesH1>Stables</ServicesH1>
-          View your horse NFTs in the Stables.<br/><br/>
+          <ServicesP>View your horse NFTs in the Stables.</ServicesP>
           <Wrapper>
-          {!data ? <p><b>(0) horses owned</b></p> :
+          {!data.length > 0 ? <p><b>(0) horses owned</b></p> :
              (data && data.filter(nft => nft.description == "$WRLD Horses: Genesis Horse Collection.").map((nft, i) => {
                 return (
-                  <Img key={i} src={nft.image_url} width={210}></Img>
+                  <div>
+                    <Img key={i} src={nft.image_url}></Img>
+                    <div>
+                      {nft.traits.map(trait => {
+                        return <div><b>{trait.trait_type.replace('_', ' ')+':'}</b>{' ' + trait.value.toString().replace('_', ' ')}</div>
+                      })}
+                    </div>
+                  </div>
                 )
             }))
           } 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
-  height: calc(100vh - 80px);
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,12 +9,14 @@ export const ServicesContainer = styled.div`
   background: #fff;
   padding-bottom: 20px;
   text-align: center;
+  margin: 100px 0;
 }
 `
 
 export const Img = styled.img`
   // float: left;
   // padding-right: 20px;
+  max-width: 300px;
 `
 
 export const Wrapper = styled.div`
@@ -23,7 +25,33 @@ flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
 > * {
-  padding: 20px;
+  &.active {
+    border: 5px solid red;
+  }
+  padding: 5px;
+  display: flex;
+  max-width: 700px;
+  margin: 10px;
+  @media only screen and (max-width: 600px) {
+    flex-flow: column;
+  }
+  > div {
+  background: #4a6f28;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    align-items: center;
+    padding-left: 15px !important;
+    @media only screen and (max-width: 600px) {
+      flex-flow: column;
+      width: 100%;
+    }
+    > * {
+      padding: 0px 5px 0px 5px;
+    }
+  }
 }
 `
 
@@ -86,8 +114,7 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #010606;
-  margin-bottom: 64px;
-
+  margin-bottom: 25px;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
@@ -102,4 +129,5 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
+  margin-bottom: 60px;
 `
