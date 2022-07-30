@@ -48,6 +48,9 @@ border: 5px solid white;
     }
     > * {
       padding: 0px 5px 0px 5px;
+      @media only screen and (max-width: 600px) {
+        padding: 5px;
+      }
     }
   }
 }
@@ -115,7 +118,7 @@ export const ServicesH1 = styled.h1`
   margin-bottom: 25px;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
-  }
+  } 
 `
 
 export const ServicesH2 = styled.h2`
