@@ -26,10 +26,10 @@ const Stables = ({ data }) => {
                   <div>
                     <Img key={i} src={nft.image_url}></Img>
                     <div>
-                      {nft.traits.sort(function(a, b) {
+                       {nft.traits.sort(function(a, b) {
                          return a.trait_type.localeCompare(b.trait_type);
                       }).map(trait => {
-                        return <div><b>{trait.trait_type.replace('_', ' ')+':'}</b>{' ' + trait.value.toString().replace('_', ' ')}</div>
+                        return <div><b>{trait.trait_type.replace('_', ' ')+':'}</b>{' ' + trait.value.toString().replace('_', ' ') + (trait.value.toString().length == 1 || trait.value.toString().length == 2 ? '/10' : '')}</div>
                       })}
                     </div>
                   </div>
