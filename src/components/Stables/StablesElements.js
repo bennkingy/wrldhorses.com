@@ -25,9 +25,7 @@ flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
 > * {
-  &.active {
-    border: 5px solid red;
-  }
+border: 5px solid white;
   padding: 5px;
   display: flex;
   max-width: 700px;
